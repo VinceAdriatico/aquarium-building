@@ -50,7 +50,7 @@ function init() {
     loader.setMeshoptDecoder( MeshoptDecoder );
 
     // import glb file from public directory
-    loader.load( 'aquarium-store-3.glb', function ( gltf ) {
+    loader.load( 'aquarium-store-3.glb?url', function ( gltf ) {
 
         // coffeemat.glb was produced from the source scene using gltfpack:
         // gltfpack -i coffeemat/scene.gltf -o coffeemat.glb -cc -tc
